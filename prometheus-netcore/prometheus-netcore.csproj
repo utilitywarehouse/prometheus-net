@@ -4,6 +4,7 @@
     <AssemblyName>prometheus-netcore</AssemblyName>
     <PackageId>prometheus-netcore</PackageId>
     <PackageTargetFallback>$(PackageTargetFallback);dnxcore50</PackageTargetFallback>
+    <VersionPrefix>1.0.1</VersionPrefix>
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
