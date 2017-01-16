@@ -11,17 +11,40 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="..\prometheus-net\Advanced\Child.cs;..\prometheus-net\Advanced\Collector.cs;..\prometheus-net\Advanced\DefaultCollectorRegistry.cs;..\prometheus-net\Advanced\ICollector.cs;..\prometheus-net\Advanced\ICollectorRegistry.cs;..\prometheus-net\Advanced\IOnDemandCollector.cs;..\prometheus-net\Advanced\MetricFactory.cs;..\prometheus-net\Advanced\ThreadSafeDouble.cs;..\prometheus-net\Advanced\ThreadSafeLong.cs;..\prometheus-net\Internal\AsciiFormatter.cs;..\prometheus-net\Internal\LabelValues.cs;..\prometheus-net\Internal\ProtoFormatter.cs;..\prometheus-net\SummaryImpl\QuantileComparer.cs;..\prometheus-net\SummaryImpl\QuantileEpsilonPair.cs;..\prometheus-net\SummaryImpl\QuantileStream.cs;..\prometheus-net\SummaryImpl\Sample.cs;..\prometheus-net\SummaryImpl\SampleBuffer.cs;..\prometheus-net\SummaryImpl\SampleStream.cs;..\prometheus-net\Counter.cs;..\prometheus-net\Gauge.cs;..\prometheus-net\Histogram.cs;..\prometheus-net\ScrapeHandler.cs;..\prometheus-net\Summary.cs;..\prometheus-net\Metrics.cs" />
-  </ItemGroup>
+    <Compile Include="..\prometheus-net\Advanced\Child.cs" />
+    <Compile Include="..\prometheus-net\Advanced\Collector.cs" />
+    <Compile Include="..\prometheus-net\Advanced\DefaultCollectorRegistry.cs" />
+    <Compile Include="..\prometheus-net\Advanced\ICollector.cs" />
+    <Compile Include="..\prometheus-net\Advanced\ICollectorRegistry.cs" />
+    <Compile Include="..\prometheus-net\Advanced\IOnDemandCollector.cs" />
+    <Compile Include="..\prometheus-net\Advanced\MetricFactory.cs" />
+    <Compile Include="..\prometheus-net\Advanced\ThreadSafeDouble.cs" />
+    <Compile Include="..\prometheus-net\Advanced\ThreadSafeLong.cs" />
+    <Compile Include="..\prometheus-net\Internal\AsciiFormatter.cs" />
+    <Compile Include="..\prometheus-net\Internal\LabelValues.cs" />
+    <Compile Include="..\prometheus-net\Internal\ProtoFormatter.cs" />
+    <Compile Include="..\prometheus-net\SummaryImpl\QuantileComparer.cs" />
+    <Compile Include="..\prometheus-net\SummaryImpl\QuantileEpsilonPair.cs" />
+    <Compile Include="..\prometheus-net\SummaryImpl\QuantileStream.cs" />
+    <Compile Include="..\prometheus-net\SummaryImpl\Sample.cs" />
+    <Compile Include="..\prometheus-net\SummaryImpl\SampleBuffer.cs" />
+    <Compile Include="..\prometheus-net\SummaryImpl\SampleStream.cs" />
+    <Compile Include="..\prometheus-net\Counter.cs" />
+    <Compile Include="..\prometheus-net\Gauge.cs" />
+    <Compile Include="..\prometheus-net\Histogram.cs" />
+    <Compile Include="..\prometheus-net\ScrapeHandler.cs" />
+    <Compile Include="..\prometheus-net\Summary.cs" />
+    <Compile Include="..\prometheus-net\Metrics.cs" />
+</ItemGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Server.Kestrel" Version="1.0.2" />
-    <PackageReference Include="Microsoft.AspNetCore.Server.Kestrel.Https" Version="1.0.2" />
-    <PackageReference Include="NETStandard.Library" Version="1.6.0" />
-    <PackageReference Include="protobuf-net" Version="2.1.0" />
-    <PackageReference Include="System.Diagnostics.Process" Version="4.1.0" />
-    <PackageReference Include="System.Reactive.Core" Version="3.0.0" />
-    <PackageReference Include="System.Reactive.Interfaces" Version="3.0.0" />
-  </ItemGroup>
+<ItemGroup>
+  <PackageReference Include="Microsoft.AspNetCore.Server.Kestrel" Version="1.0.2" />
+  <PackageReference Include="Microsoft.AspNetCore.Server.Kestrel.Https" Version="1.0.2" />
+  <PackageReference Include="NETStandard.Library" Version="1.6.0" />
+  <PackageReference Include="protobuf-net" Version="2.1.0" />
+  <PackageReference Include="System.Diagnostics.Process" Version="4.1.0" />
+  <PackageReference Include="System.Reactive.Core" Version="3.0.0" />
+  <PackageReference Include="System.Reactive.Interfaces" Version="3.0.0" />
+</ItemGroup>
 
 </Project>
